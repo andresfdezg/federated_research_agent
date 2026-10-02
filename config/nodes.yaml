@@ -1,0 +1,18 @@
+# Federated data nodes. Each one has its own disclosure-control policy, as real
+# trusted research environments do; clients must cope with the differences.
+nodes:
+  biobank_north:
+    description: Population biobank of the general adult population, genotyped on array.
+    port: 8101
+    min_cell_count: 10
+    round_counts_to: 5
+  hospital_central:
+    description: Tertiary hospital with a hereditary cancer unit (enriched for BRCA1/2 carriers).
+    port: 8102
+    min_cell_count: 5
+    round_counts_to: 1
+  cardio_cohort:
+    description: Prospective cardiometabolic cohort of older adults (enriched for familial hypercholesterolaemia).
+    port: 8103
+    min_cell_count: 20
+    round_counts_to: 10
