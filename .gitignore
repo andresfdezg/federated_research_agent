@@ -10,3 +10,4 @@ node_modules/
 # local notes / screenshots
 *.png
 !docs/**/*.png
+preguntas.txt

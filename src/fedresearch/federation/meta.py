@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 from scipy import stats
 
-Z_975 = stats.norm.ppf(0.975)
+Z_975 = float(stats.norm.ppf(0.975))
 
 
 @dataclass(frozen=True)
